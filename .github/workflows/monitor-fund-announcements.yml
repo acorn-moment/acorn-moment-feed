@@ -1,6 +1,10 @@
 name: Monitor fund announcements
 
 on:
+  push:
+    paths:
+      - "scripts/monitor_fund_announcements.py"
+      - ".github/workflows/monitor-fund-announcements.yml"
   schedule:
     - cron: "30 0 * * *"
   workflow_dispatch:
