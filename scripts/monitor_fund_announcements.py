@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 import datetime as dt
+import concurrent.futures
 import json
 import pathlib
 import re
+import socket
+import time
 from typing import Optional
+import urllib.error
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -14,8 +18,19 @@ RELEVANT = re.compile(r"大额申购|限制申购|恢复大额|申购.*限制")
 
 
 def cmb_request(request: urllib.request.Request) -> dict:
-    with urllib.request.urlopen(request, timeout=30) as response:
-        result = json.load(response)
+    last_error: Optional[Exception] = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                result = json.load(response)
+            break
+        except (TimeoutError, socket.timeout, urllib.error.URLError, json.JSONDecodeError) as error:
+            last_error = error
+            if attempt == 2:
+                raise RuntimeError("CMB API failed after 3 attempts") from error
+            time.sleep(2 ** attempt)
+    else:
+        raise RuntimeError("CMB API failed") from last_error
     if result.get("returnCode") != "SUC0000":
         raise RuntimeError(f"CMB API failed: {result.get('returnCode')}")
     return result
@@ -74,11 +89,21 @@ def iso_time(value: str) -> str:
 def main() -> None:
     feed = json.loads(FEED_PATH.read_text(encoding="utf-8"))
     alerts = {str(item["id"]): item for item in feed.get("alerts", [])}
-    for record in feed["records"]:
-        for code in record["codes"]:
-            validate_fund_code(code, record["index"])
-        code = record["codes"][0]
-        notice = latest_relevant_notice(code)
+    validation_targets = [
+        (code, record["index"])
+        for record in feed["records"]
+        for code in record["codes"]
+    ]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        list(executor.map(lambda item: validate_fund_code(*item), validation_targets))
+        notices = list(
+            executor.map(
+                latest_relevant_notice,
+                [record["codes"][0] for record in feed["records"]],
+            )
+        )
+
+    for record, notice in zip(feed["records"], notices):
         if not notice:
             continue
         notice_id = str(notice["id"])
