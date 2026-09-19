@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
-  "monitoringLastCheckedAt": "2026-09-19T13:06:12Z",
+  "monitoringLastCheckedAt": "2026-09-19T13:22:43Z",
   "alerts": [],
   "records": [
     {
@@ -30,7 +30,7 @@
       "codes": [
         "018966",
         "018967",
-        "022607"
+        "021773"
       ],
       "shareClasses": "A / C / E 人民币",
       "singleLimit": 100,
