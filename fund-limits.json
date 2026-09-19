@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
-  "monitoringLastCheckedAt": "2026-09-19T14:16:56Z",
+  "monitoringLastCheckedAt": "2026-09-19T14:45:30Z",
   "alerts": [],
   "records": [
     {
@@ -20,6 +20,12 @@
       "sourceURL": "https://www.cmfunds.cn/web/fundDetail/019547/index.html",
       "channelScope": "招商基金直销机构",
       "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [
+        "019547",
+        "019548"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547",
       "lastMonitoredAnnouncementID": "841549285409"
@@ -41,6 +47,14 @@
       "sourceURL": "https://www.99fund.com/main/a/20260912/12867479.shtml",
       "channelScope": "汇添富基金直销机构",
       "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [
+        "018966",
+        "018967"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [
+        "021773"
+      ],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966",
       "lastMonitoredAnnouncementID": "842499340902"
@@ -65,6 +79,12 @@
       "agencyScope": "全渠道统一限额",
       "agencyVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbStatus": "已在招商银行公开基金接口确认；全渠道限额仍以最新公告为准",
+      "cmbPurchaseAvailableCodes": [
+        "019441",
+        "019442"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441",
       "lastMonitoredAnnouncementID": "842284229076"
@@ -89,6 +109,12 @@
       "agencyScope": "各代销机构（招商银行属于代销机构）",
       "agencyVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbStatus": "已在招商银行公开基金接口确认；基金公告确认代销每日累计 100 元，下单仍以银行实时页面为准",
+      "cmbPurchaseAvailableCodes": [
+        "096001",
+        "008401"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=096001",
       "lastMonitoredAnnouncementID": "842173574100"
@@ -107,6 +133,12 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=842345358234&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "270042",
+        "006479"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
       "lastMonitoredAnnouncementID": "842345358234"
@@ -125,6 +157,12 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=837939226697&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [
+        "040046",
+        "014978"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=040046",
       "lastMonitoredAnnouncementID": "837939226697"
@@ -143,6 +181,12 @@
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "161130",
+        "012870"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130"
     },
@@ -159,6 +203,11 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=841568529888&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [
+        "160213"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213",
       "lastMonitoredAnnouncementID": "841568529888"
@@ -177,6 +226,12 @@
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=015299",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "015299",
+        "015300"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=015299"
     },
@@ -194,6 +249,12 @@
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=016055",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "016055",
+        "016057"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=016055"
     },
@@ -212,6 +273,14 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=840445424430&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [
+        "539001",
+        "012752"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [
+        "023422"
+      ],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=539001",
       "lastMonitoredAnnouncementID": "840445424430"
@@ -230,6 +299,12 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=838223258325&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [
+        "017641",
+        "019305"
+      ],
+      "cmbPurchaseUnavailableCodes": [],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017641",
       "lastMonitoredAnnouncementID": "838223258325"
@@ -248,6 +323,12 @@
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018064",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "018064",
+        "018065"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018064"
     },
@@ -265,6 +346,12 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=829015227311&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "050025",
+        "006075"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=050025",
       "lastMonitoredAnnouncementID": "829015227311"
@@ -283,6 +370,12 @@
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
+        "017028",
+        "017030"
+      ],
+      "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028"
     }
