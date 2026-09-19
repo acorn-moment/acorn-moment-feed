@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-19T12:00:00Z",
+  "records": [
+    {
+      "index": "纳斯达克100",
+      "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
+      "codes": ["019547", "019548"],
+      "shareClasses": "A / C 人民币",
+      "singleLimit": 10,
+      "dailyCumulativeLimit": 10,
+      "effectiveDate": "2026-09-02T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整直销机构大额申购（含定期定额投资）业务的公告",
+      "sourceURL": "https://www.cmfunds.cn/web/fundDetail/019547/index.html",
+      "channelScope": "招商基金直销机构",
+      "cmbStatus": "待在招商银行 App 逐项复核"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
+      "codes": ["018966", "018967", "022607"],
+      "shareClasses": "A / C / E 人民币",
+      "singleLimit": 100,
+      "dailyCumulativeLimit": 100,
+      "effectiveDate": "2026-09-14T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整直销机构大额申购、定期定额投资业务限制金额的公告",
+      "sourceURL": "https://www.99fund.com/main/a/20260912/12867479.shtml",
+      "channelScope": "汇添富基金直销机构",
+      "cmbStatus": "待在招商银行 App 逐项复核"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "万家纳斯达克100指数发起式（QDII）",
+      "codes": ["019441", "019442"],
+      "shareClasses": "A / C 人民币",
+      "singleLimit": 100,
+      "dailyCumulativeLimit": 100,
+      "effectiveDate": "2026-09-10T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整大额申购业务金额限制并调整总规模上限的公告",
+      "sourceURL": "https://epaper.cs.com.cn/zgzqb/html/2026-09/10/nw.D110000zgzqb_20260910_4-B002.htm",
+      "channelScope": "全渠道（包含基金公司直销）",
+      "agencySingleLimit": 100,
+      "agencyDailyCumulativeLimit": 100,
+      "agencyScope": "全渠道统一限额",
+      "agencyVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbStatus": "待在招商银行 App 逐项复核"
+    },
+    {
+      "index": "标普500",
+      "fundName": "大成标普500等权重指数（QDII）",
+      "codes": ["096001", "008401"],
+      "shareClasses": "A / C 人民币",
+      "singleLimit": 1000,
+      "dailyCumulativeLimit": 1000,
+      "effectiveDate": "2026-09-08T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整大额申购（含定期定额申购）业务的公告",
+      "sourceURL": "https://hongdianfund.com/FundAnnouncement/Detail/096001/0000000000001rxumq",
+      "channelScope": "大成基金直销渠道",
+      "agencySingleLimit": 100,
+      "agencyDailyCumulativeLimit": 100,
+      "agencyScope": "各代销机构（招商银行属于代销机构）",
+      "agencyVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbStatus": "基金公告确认代销每日累计 100 元；下单仍以招商银行实时页面为准"
+    }
+  ]
+}
