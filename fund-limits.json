@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
-  "monitoringLastCheckedAt": "2026-09-19T13:46:57Z",
+  "monitoringLastCheckedAt": "2026-09-19T14:06:16Z",
   "alerts": [],
   "records": [
     {
@@ -92,6 +92,199 @@
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=096001",
       "lastMonitoredAnnouncementID": "842173574100"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "codes": [
+        "270042",
+        "006479"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-09-10T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整大额申购业务限额的公告（具体额度待核验）",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=842345358234&TB=MFA",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
+      "lastMonitoredAnnouncementID": "842345358234"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "华安纳斯达克100ETF联接（QDII）",
+      "codes": [
+        "040046",
+        "014978"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-07-21T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "暂停大额申购、定期定额投资的公告（具体额度待核验）",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=837939226697&TB=MFA",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=040046",
+      "lastMonitoredAnnouncementID": "837939226697"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "易方达纳斯达克100ETF联接（QDII-LOF）",
+      "codes": [
+        "161130",
+        "012870"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-09-19T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "招商银行公开基金资料已确认，限额待核验",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "国泰纳斯达克100指数（QDII）",
+      "codes": [
+        "160213"
+      ],
+      "shareClasses": "人民币",
+      "effectiveDate": "2026-09-01T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整大额申购及定期定额投资业务金额限制的公告（具体额度待核验）",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=841568529888&TB=MFA",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213",
+      "lastMonitoredAnnouncementID": "841568529888"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "华夏纳斯达克100ETF发起式联接（QDII）",
+      "codes": [
+        "015299",
+        "015300"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-09-19T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "招商银行公开基金资料已确认，限额待核验",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=015299",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=015299"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "博时纳斯达克100ETF发起式联接（QDII）",
+      "codes": [
+        "016055",
+        "016057"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-09-19T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "招商银行公开基金资料已确认，限额待核验",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=016055",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=016055"
+    },
+    {
+      "index": "纳斯达克100",
+      "fundName": "建信纳斯达克100指数（QDII）",
+      "codes": [
+        "539001",
+        "012752",
+        "023422"
+      ],
+      "shareClasses": "A / C / D 人民币",
+      "effectiveDate": "2026-08-19T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "暂停大额申购、定期定额投资公告（具体额度待核验）",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=840445424430&TB=MFA",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=539001",
+      "lastMonitoredAnnouncementID": "840445424430"
+    },
+    {
+      "index": "标普500",
+      "fundName": "摩根标普500指数（QDII）",
+      "codes": [
+        "017641",
+        "019305"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-07-27T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整大额申购、定期定额投资及转换转入业务限制金额的公告（具体额度待核验）",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=838223258325&TB=MFA",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017641",
+      "lastMonitoredAnnouncementID": "838223258325"
+    },
+    {
+      "index": "标普500",
+      "fundName": "华夏标普500ETF发起式联接（QDII）",
+      "codes": [
+        "018064",
+        "018065"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-09-19T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "招商银行公开基金资料已确认，限额待核验",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018064",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018064"
+    },
+    {
+      "index": "标普500",
+      "fundName": "博时标普500ETF联接（QDII）",
+      "codes": [
+        "050025",
+        "006075"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-04-09T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "调整大额申购、转换转入、定期定额投资业务的公告（具体额度待核验）",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=829015227311&TB=MFA",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=050025",
+      "lastMonitoredAnnouncementID": "829015227311"
+    },
+    {
+      "index": "标普500",
+      "fundName": "国泰标普500ETF发起联接（QDII）",
+      "codes": [
+        "017028",
+        "017030"
+      ],
+      "shareClasses": "A / C 人民币",
+      "effectiveDate": "2026-09-19T00:00:00Z",
+      "verifiedAt": "2026-09-19T00:00:00Z",
+      "announcementTitle": "招商银行公开基金资料已确认，限额待核验",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028",
+      "channelScope": "基金公司直销限额待核验",
+      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028"
     }
   ]
 }
