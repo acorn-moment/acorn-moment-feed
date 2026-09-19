@@ -9,7 +9,44 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FEED_PATH = ROOT / "fund-limits.json"
 API_URL = "https://fund.cmbchina.com/api/v1/bulletin/list-paged"
+OVERVIEW_API_URL = "https://fund.cmbchina.com/api/v1/fund/overview"
 RELEVANT = re.compile(r"大额申购|限制申购|恢复大额|申购.*限制")
+
+
+def cmb_request(request: urllib.request.Request) -> dict:
+    with urllib.request.urlopen(request, timeout=30) as response:
+        result = json.load(response)
+    if result.get("returnCode") != "SUC0000":
+        raise RuntimeError(f"CMB API failed: {result.get('returnCode')}")
+    return result
+
+
+def validate_fund_code(code: str, tracked_index: str) -> None:
+    request = urllib.request.Request(
+        f"{OVERVIEW_API_URL}?fundCode={code}",
+        headers={
+            "X-B3-BusinessId": "LB502215022881",
+            "Referer": "https://fund.cmbchina.com/",
+            "User-Agent": "AcornMomentFundMonitor/1.0",
+        },
+    )
+    result = cmb_request(request)
+    rows = result.get("body", [])
+    if not rows:
+        raise RuntimeError(f"CMB has no public fund record for {code}")
+    fund = rows[0]
+    searchable = "".join(
+        str(fund.get(field, "")) for field in ("name", "nameAbbr", "investTarget")
+    )
+    required_terms = {
+        "纳斯达克100": ("纳斯达克", "100"),
+        "标普500": ("标普", "500"),
+    }[tracked_index]
+    if not all(term in searchable for term in required_terms):
+        raise RuntimeError(
+            f"Fund code {code} does not match tracked index {tracked_index}: "
+            f"{fund.get('nameAbbr') or fund.get('name')}"
+        )
 
 
 def latest_relevant_notice(code: str) -> Optional[dict]:
@@ -24,10 +61,7 @@ def latest_relevant_notice(code: str) -> Optional[dict]:
             "User-Agent": "AcornMomentFundMonitor/1.0",
         },
     )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        result = json.load(response)
-    if result.get("returnCode") != "SUC0000":
-        raise RuntimeError(f"CMB API failed for {code}: {result.get('returnCode')}")
+    result = cmb_request(request)
     notices = result.get("body", {}).get("list", [])
     return next((item for item in notices if RELEVANT.search(item.get("title", ""))), None)
 
@@ -41,6 +75,8 @@ def main() -> None:
     feed = json.loads(FEED_PATH.read_text(encoding="utf-8"))
     alerts = {str(item["id"]): item for item in feed.get("alerts", [])}
     for record in feed["records"]:
+        for code in record["codes"]:
+            validate_fund_code(code, record["index"])
         code = record["codes"][0]
         notice = latest_relevant_notice(code)
         if not notice:
