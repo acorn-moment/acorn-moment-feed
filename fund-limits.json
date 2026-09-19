@@ -1,11 +1,16 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
+  "monitoringLastCheckedAt": "2026-09-19T12:54:05Z",
+  "alerts": [],
   "records": [
     {
       "index": "纳斯达克100",
       "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
-      "codes": ["019547", "019548"],
+      "codes": [
+        "019547",
+        "019548"
+      ],
       "shareClasses": "A / C 人民币",
       "singleLimit": 10,
       "dailyCumulativeLimit": 10,
@@ -14,12 +19,19 @@
       "announcementTitle": "调整直销机构大额申购（含定期定额投资）业务的公告",
       "sourceURL": "https://www.cmfunds.cn/web/fundDetail/019547/index.html",
       "channelScope": "招商基金直销机构",
-      "cmbStatus": "待在招商银行 App 逐项复核"
+      "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547",
+      "lastMonitoredAnnouncementID": "841549285409"
     },
     {
       "index": "纳斯达克100",
       "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
-      "codes": ["018966", "018967", "022607"],
+      "codes": [
+        "018966",
+        "018967",
+        "022607"
+      ],
       "shareClasses": "A / C / E 人民币",
       "singleLimit": 100,
       "dailyCumulativeLimit": 100,
@@ -28,12 +40,18 @@
       "announcementTitle": "调整直销机构大额申购、定期定额投资业务限制金额的公告",
       "sourceURL": "https://www.99fund.com/main/a/20260912/12867479.shtml",
       "channelScope": "汇添富基金直销机构",
-      "cmbStatus": "待在招商银行 App 逐项复核"
+      "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966",
+      "lastMonitoredAnnouncementID": "842499340902"
     },
     {
       "index": "纳斯达克100",
       "fundName": "万家纳斯达克100指数发起式（QDII）",
-      "codes": ["019441", "019442"],
+      "codes": [
+        "019441",
+        "019442"
+      ],
       "shareClasses": "A / C 人民币",
       "singleLimit": 100,
       "dailyCumulativeLimit": 100,
@@ -46,12 +64,18 @@
       "agencyDailyCumulativeLimit": 100,
       "agencyScope": "全渠道统一限额",
       "agencyVerifiedAt": "2026-09-19T00:00:00Z",
-      "cmbStatus": "待在招商银行 App 逐项复核"
+      "cmbStatus": "已在招商银行公开基金接口确认；全渠道限额仍以最新公告为准",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441",
+      "lastMonitoredAnnouncementID": "842284229076"
     },
     {
       "index": "标普500",
       "fundName": "大成标普500等权重指数（QDII）",
-      "codes": ["096001", "008401"],
+      "codes": [
+        "096001",
+        "008401"
+      ],
       "shareClasses": "A / C 人民币",
       "singleLimit": 1000,
       "dailyCumulativeLimit": 1000,
@@ -64,7 +88,10 @@
       "agencyDailyCumulativeLimit": 100,
       "agencyScope": "各代销机构（招商银行属于代销机构）",
       "agencyVerifiedAt": "2026-09-19T00:00:00Z",
-      "cmbStatus": "基金公告确认代销每日累计 100 元；下单仍以招商银行实时页面为准"
+      "cmbStatus": "已在招商银行公开基金接口确认；基金公告确认代销每日累计 100 元，下单仍以银行实时页面为准",
+      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=096001",
+      "lastMonitoredAnnouncementID": "842173574100"
     }
   ]
 }
