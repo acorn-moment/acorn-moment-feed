@@ -1,8 +1,16 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
-  "monitoringLastCheckedAt": "2026-09-21T00:44:04Z",
-  "alerts": [],
+  "monitoringLastCheckedAt": "2026-09-22T00:43:25Z",
+  "alerts": [
+    {
+      "id": "843361372102",
+      "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
+      "title": "关于汇添富纳斯达克100交易型开放式指数证券投资基金发起式联接基金（QDII）调整直销机构大额申购、定期定额投资业务限制金额的公告",
+      "publishedAt": "2026-09-21T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843361372102&TB=MFA"
+    }
+  ],
   "records": [
     {
       "index": "纳斯达克100",
@@ -57,7 +65,7 @@
       ],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966",
-      "lastMonitoredAnnouncementID": "842499340902"
+      "lastMonitoredAnnouncementID": "843361372102"
     },
     {
       "index": "纳斯达克100",
