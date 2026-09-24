@@ -1,8 +1,29 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
-  "monitoringLastCheckedAt": "2026-09-23T00:42:58Z",
+  "monitoringLastCheckedAt": "2026-09-24T00:44:25Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-018966-2026-09-24T00:44:25Z",
+      "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-09-24T00:44:25Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966"
+    },
+    {
+      "id": "843469394852",
+      "fundName": "万家纳斯达克100指数发起式（QDII）",
+      "title": "关于万家纳斯达克100指数型发起式证券投资基金(QDII)调整大额申购(含定期定额投资)业务金额限制并调整总规模上限的公告",
+      "publishedAt": "2026-09-22T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843469394852&TB=MFA"
+    },
+    {
+      "id": "843468488634",
+      "fundName": "华安纳斯达克100ETF联接（QDII）",
+      "title": "关于华安纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）暂停大额申购、大额定期定额投资的公告",
+      "publishedAt": "2026-09-22T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843468488634&TB=MFA"
+    },
     {
       "id": "843361372102",
       "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
@@ -55,11 +76,11 @@
       "sourceURL": "https://www.99fund.com/main/a/20260912/12867479.shtml",
       "channelScope": "汇添富基金直销机构",
       "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "018966",
         "018967"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [
         "021773"
       ],
@@ -95,7 +116,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441",
-      "lastMonitoredAnnouncementID": "842284229076"
+      "lastMonitoredAnnouncementID": "843469394852"
     },
     {
       "index": "标普500",
@@ -173,7 +194,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=040046",
-      "lastMonitoredAnnouncementID": "837939226697"
+      "lastMonitoredAnnouncementID": "843468488634"
     },
     {
       "index": "纳斯达克100",
