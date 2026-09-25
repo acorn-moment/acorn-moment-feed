@@ -1,8 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-09-19T12:00:00Z",
-  "monitoringLastCheckedAt": "2026-09-24T00:44:25Z",
+  "monitoringLastCheckedAt": "2026-09-25T00:43:48Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-160213-2026-09-25T00:43:48Z",
+      "fundName": "国泰纳斯达克100指数（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-09-25T00:43:48Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213"
+    },
     {
       "id": "cmb-purchase-018966-2026-09-24T00:44:25Z",
       "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
@@ -232,10 +239,10 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=841568529888&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "160213"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213",
