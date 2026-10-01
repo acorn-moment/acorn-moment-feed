@@ -15,7 +15,7 @@ FEED_PATH = ROOT / "fund-limits.json"
 API_URL = "https://fund.cmbchina.com/api/v1/bulletin/list-paged"
 OVERVIEW_API_URL = "https://fund.cmbchina.com/api/v1/fund/overview"
 FEE_RATE_API_URL = "https://fund.cmbchina.com/api/v1/fund/fee-rate"
-RELEVANT = re.compile(r"大额申购|限制申购|恢复大额|申购.*限制")
+RELEVANT = re.compile(r"大额申购|限制申购|恢复大额|申购.*限制|暂停申购|恢复申购")
 
 
 def cmb_request(request: urllib.request.Request) -> dict:
