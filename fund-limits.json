@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-19T12:00:00Z",
+  "generatedAt": "2026-10-01T00:49:18Z",
   "monitoringLastCheckedAt": "2026-10-01T00:49:18Z",
   "alerts": [
     {
@@ -9,34 +9,6 @@
       "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
       "publishedAt": "2026-09-25T00:43:48Z",
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213"
-    },
-    {
-      "id": "cmb-purchase-018966-2026-09-24T00:44:25Z",
-      "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
-      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
-      "publishedAt": "2026-09-24T00:44:25Z",
-      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966"
-    },
-    {
-      "id": "843469394852",
-      "fundName": "万家纳斯达克100指数发起式（QDII）",
-      "title": "关于万家纳斯达克100指数型发起式证券投资基金(QDII)调整大额申购(含定期定额投资)业务金额限制并调整总规模上限的公告",
-      "publishedAt": "2026-09-22T16:00:00Z",
-      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843469394852&TB=MFA"
-    },
-    {
-      "id": "843468488634",
-      "fundName": "华安纳斯达克100ETF联接（QDII）",
-      "title": "关于华安纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）暂停大额申购、大额定期定额投资的公告",
-      "publishedAt": "2026-09-22T16:00:00Z",
-      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843468488634&TB=MFA"
-    },
-    {
-      "id": "843361372102",
-      "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
-      "title": "关于汇添富纳斯达克100交易型开放式指数证券投资基金发起式联接基金（QDII）调整直销机构大额申购、定期定额投资业务限制金额的公告",
-      "publishedAt": "2026-09-21T16:00:00Z",
-      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843361372102&TB=MFA"
     }
   ],
   "records": [
@@ -55,14 +27,14 @@
       "announcementTitle": "调整直销机构大额申购（含定期定额投资）业务的公告",
       "sourceURL": "https://www.cmfunds.cn/web/fundDetail/019547/index.html",
       "channelScope": "招商基金直销机构",
-      "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
+      "cmbStatus": "招商银行公开接口显示 A/C 份额可申购、E 份额未提供交易信息；实际下单额度以银行页面为准",
       "cmbPurchaseAvailableCodes": [
         "019547",
         "019548"
       ],
       "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
-      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbVerifiedAt": "2026-09-22T00:32:23Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547",
       "lastMonitoredAnnouncementID": "841549285409"
     },
@@ -75,14 +47,19 @@
         "021773"
       ],
       "shareClasses": "A / C / E 人民币",
-      "singleLimit": 100,
-      "dailyCumulativeLimit": 100,
-      "effectiveDate": "2026-09-14T00:00:00Z",
-      "verifiedAt": "2026-09-19T00:00:00Z",
-      "announcementTitle": "调整直销机构大额申购、定期定额投资业务限制金额的公告",
-      "sourceURL": "https://www.99fund.com/main/a/20260912/12867479.shtml",
-      "channelScope": "汇添富基金直销机构",
-      "cmbStatus": "已在招商银行公开基金接口确认；实时下单状态与额度待核验",
+      "singleLimit": 10,
+      "dailyCumulativeLimit": 10,
+      "effectiveDate": "2026-09-24T00:00:00Z",
+      "verifiedAt": "2026-10-01T00:49:18Z",
+      "announcementDate": "2026-09-24T00:00:00Z",
+      "announcementTitle": "暂停申购、定期定额投资业务的公告",
+      "sourceURL": "https://www.99fund.com/main/products/pofund/018967/fundgg.shtml",
+      "channelScope": "公告未区分渠道；人民币 A/C/E 均暂停申购及定期定额投资",
+      "agencySingleLimit": 10,
+      "agencyDailyCumulativeLimit": 10,
+      "agencyScope": "代销渠道（公告明确维持不变；招商银行实际额度仍以银行页面为准）",
+      "agencyVerifiedAt": "2026-09-22T00:32:23Z",
+      "cmbStatus": "基金公司已公告暂停申购；招商银行公开接口显示 A/C 当前不可申购，E 未提供交易信息",
       "cmbPurchaseAvailableCodes": [],
       "cmbPurchaseUnavailableCodes": [
         "018966",
@@ -91,9 +68,10 @@
       "cmbPurchaseUnknownCodes": [
         "021773"
       ],
-      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966",
-      "lastMonitoredAnnouncementID": "843361372102"
+      "lastMonitoredAnnouncementID": "843361372102",
+      "subscriptionStatus": "suspended"
     },
     {
       "index": "纳斯达克100",
@@ -105,23 +83,23 @@
       "shareClasses": "A / C 人民币",
       "singleLimit": 100,
       "dailyCumulativeLimit": 100,
-      "effectiveDate": "2026-09-10T00:00:00Z",
-      "verifiedAt": "2026-09-19T00:00:00Z",
+      "effectiveDate": "2026-09-23T00:00:00Z",
+      "verifiedAt": "2026-10-01T00:49:18Z",
       "announcementTitle": "调整大额申购业务金额限制并调整总规模上限的公告",
-      "sourceURL": "https://epaper.cs.com.cn/zgzqb/html/2026-09/10/nw.D110000zgzqb_20260910_4-B002.htm",
-      "channelScope": "全渠道（包含基金公司直销）",
-      "agencySingleLimit": 100,
-      "agencyDailyCumulativeLimit": 100,
-      "agencyScope": "全渠道统一限额",
-      "agencyVerifiedAt": "2026-09-19T00:00:00Z",
-      "cmbStatus": "已在招商银行公开基金接口确认；全渠道限额仍以最新公告为准",
+      "sourceURL": "https://app.cnstock.com/zzb/zgzqb/html/2026-09/23/nw.D110000zgzqb_20260923_4-B029.htm",
+      "channelScope": "万家基金直销渠道；A/C 合并计算",
+      "agencySingleLimit": 10,
+      "agencyDailyCumulativeLimit": 10,
+      "agencyScope": "代销渠道；A/C 合并计算",
+      "agencyVerifiedAt": "2026-10-01T00:49:18Z",
+      "cmbStatus": "公告确认代销渠道单日累计降至 10 元；招商银行公开页面显示 A/C 可申购，实际下单仍以银行页面为准",
       "cmbPurchaseAvailableCodes": [
         "019441",
         "019442"
       ],
       "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
-      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441",
       "lastMonitoredAnnouncementID": "843469394852"
     },
@@ -187,19 +165,25 @@
         "014978"
       ],
       "shareClasses": "A / C 人民币",
-      "effectiveDate": "2026-07-21T00:00:00Z",
-      "verifiedAt": "2026-09-19T00:00:00Z",
-      "announcementTitle": "暂停大额申购、定期定额投资的公告（具体额度待核验）",
-      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=837939226697&TB=MFA",
-      "channelScope": "基金公司直销限额待核验",
-      "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
+      "singleLimit": 5,
+      "dailyCumulativeLimit": 5,
+      "effectiveDate": "2026-09-24T00:00:00Z",
+      "verifiedAt": "2026-10-01T00:49:18Z",
+      "announcementTitle": "暂停大额申购、大额定期定额投资的公告",
+      "sourceURL": "https://www.huaan.com.cn/",
+      "channelScope": "公告未区分渠道；A/C 人民币份额单日限额 5 元",
+      "agencySingleLimit": 5,
+      "agencyDailyCumulativeLimit": 5,
+      "agencyScope": "公告未区分渠道",
+      "agencyVerifiedAt": "2026-10-01T00:49:18Z",
+      "cmbStatus": "基金公司官网确认 9 月 24 日起单日限额 5 元；招商银行公开页面显示 A/C 可申购",
       "cmbPurchaseAvailableCodes": [
         "040046",
         "014978"
       ],
       "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
-      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=040046",
       "lastMonitoredAnnouncementID": "843468488634"
     },
@@ -244,7 +228,7 @@
         "160213"
       ],
       "cmbPurchaseUnknownCodes": [],
-      "cmbVerifiedAt": "2026-09-19T00:00:00Z",
+      "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213",
       "lastMonitoredAnnouncementID": "841568529888"
     },
