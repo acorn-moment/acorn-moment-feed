@@ -1,14 +1,49 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-10-01T00:49:18Z",
+  "monitoringLastCheckedAt": "2026-10-01T11:12:50Z",
   "alerts": [
+    {
+      "id": "844074235193",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "title": "关于广发纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）继续暂停申购（包含转换转入、定期定额及不定额投资）业务的提示性公告",
+      "publishedAt": "2026-09-29T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=844074235193&TB=MFA"
+    },
     {
       "id": "cmb-purchase-160213-2026-09-25T00:43:48Z",
       "fundName": "国泰纳斯达克100指数（QDII）",
       "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
       "publishedAt": "2026-09-25T00:43:48Z",
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213"
+    },
+    {
+      "id": "843533793365",
+      "fundName": "汇添富纳斯达克100ETF发起式联接（QDII）",
+      "title": "关于汇添富纳斯达克100交易型开放式指数证券投资基金发起式联接基金（QDII）暂停申购、定期定额投资业务的公告",
+      "publishedAt": "2026-09-23T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843533793365&TB=MFA"
+    },
+    {
+      "id": "843381470442",
+      "fundName": "国泰纳斯达克100指数（QDII）",
+      "title": "国泰纳斯达克100指数证券投资基金暂停申购、定期定额投资业务的公告",
+      "publishedAt": "2026-09-21T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=843381470442&TB=MFA"
+    },
+    {
+      "id": "841708254251",
+      "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
+      "title": "招商基金管理有限公司关于旗下部分基金2026年9月7日因境外主要投资市场节假日暂停申购、赎回、转换、定期定额投资业务的公告",
+      "publishedAt": "2026-09-02T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=841708254251&TB=MFA"
+    },
+    {
+      "id": "831906823581",
+      "fundName": "博时标普500ETF联接（QDII）",
+      "title": "博时标普500交易型开放式指数证券投资基金联接基金A、C两类份额暂停申购、转换转入、定期定额投资业务公告",
+      "publishedAt": "2026-05-07T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=831906823581&TB=MFA"
     }
   ],
   "records": [
@@ -36,7 +71,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-22T00:32:23Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547",
-      "lastMonitoredAnnouncementID": "841549285409"
+      "lastMonitoredAnnouncementID": "841708254251"
     },
     {
       "index": "纳斯达克100",
@@ -70,7 +105,7 @@
       ],
       "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=018966",
-      "lastMonitoredAnnouncementID": "843361372102",
+      "lastMonitoredAnnouncementID": "843533793365",
       "subscriptionStatus": "suspended"
     },
     {
@@ -155,7 +190,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
-      "lastMonitoredAnnouncementID": "842345358234"
+      "lastMonitoredAnnouncementID": "844074235193"
     },
     {
       "index": "纳斯达克100",
@@ -208,7 +243,8 @@
       ],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
-      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130"
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130",
+      "lastMonitoredAnnouncementID": "841605311506"
     },
     {
       "index": "纳斯达克100",
@@ -230,7 +266,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213",
-      "lastMonitoredAnnouncementID": "841568529888"
+      "lastMonitoredAnnouncementID": "843381470442"
     },
     {
       "index": "纳斯达克100",
@@ -374,7 +410,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=050025",
-      "lastMonitoredAnnouncementID": "829015227311"
+      "lastMonitoredAnnouncementID": "831906823581"
     },
     {
       "index": "标普500",
@@ -397,7 +433,8 @@
       ],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
-      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028"
+      "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028",
+      "lastMonitoredAnnouncementID": "841618793296"
     }
   ]
 }
