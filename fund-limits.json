@@ -1,8 +1,22 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-10-12T00:55:31Z",
+  "monitoringLastCheckedAt": "2026-10-13T00:57:10Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-270042-2026-10-13T00:57:10Z",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-10-13T00:57:10Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042"
+    },
+    {
+      "id": "845172748675",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "title": "广发基金管理有限公司关于广发纳斯达克100交易型开放式指数证券投资基金联接基金(QDII)人民币份额恢复申购(含转换转入、定期定额和不定额投资)业务的公告",
+      "publishedAt": "2026-10-12T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=845172748675&TB=MFA"
+    },
     {
       "id": "844074235193",
       "fundName": "广发纳斯达克100ETF联接（QDII）",
@@ -182,15 +196,15 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=842345358234&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
-      "cmbPurchaseAvailableCodes": [],
-      "cmbPurchaseUnavailableCodes": [
+      "cmbPurchaseAvailableCodes": [
         "270042",
         "006479"
       ],
+      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
-      "lastMonitoredAnnouncementID": "844074235193"
+      "lastMonitoredAnnouncementID": "845172748675"
     },
     {
       "index": "纳斯达克100",
