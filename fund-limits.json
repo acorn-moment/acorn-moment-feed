@@ -1,8 +1,29 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-10-13T00:57:10Z",
+  "monitoringLastCheckedAt": "2026-10-14T01:10:11Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-019547-2026-10-14T01:10:11Z",
+      "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-10-14T01:10:11Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547"
+    },
+    {
+      "id": "845283406016",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "title": "关于广发纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）人民币份额暂停申购（含转换转入、定期定额和不定额投资）业务的公告",
+      "publishedAt": "2026-10-13T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=845283406016&TB=MFA"
+    },
+    {
+      "id": "845251331197",
+      "fundName": "易方达纳斯达克100ETF联接（QDII-LOF）",
+      "title": "易方达基金管理有限公司关于旗下部分基金2026年10月19日暂停申购、赎回、转换、定期定额投资业务的提示性公告",
+      "publishedAt": "2026-10-13T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=845251331197&TB=MFA"
+    },
     {
       "id": "cmb-purchase-270042-2026-10-13T00:57:10Z",
       "fundName": "广发纳斯达克100ETF联接（QDII）",
@@ -77,11 +98,11 @@
       "sourceURL": "https://www.cmfunds.cn/web/fundDetail/019547/index.html",
       "channelScope": "招商基金直销机构",
       "cmbStatus": "招商银行公开接口显示 A/C 份额可申购、E 份额未提供交易信息；实际下单额度以银行页面为准",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "019547",
         "019548"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-22T00:32:23Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547",
@@ -204,7 +225,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
-      "lastMonitoredAnnouncementID": "845172748675"
+      "lastMonitoredAnnouncementID": "845283406016"
     },
     {
       "index": "纳斯达克100",
@@ -258,7 +279,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130",
-      "lastMonitoredAnnouncementID": "841605311506"
+      "lastMonitoredAnnouncementID": "845251331197"
     },
     {
       "index": "纳斯达克100",
