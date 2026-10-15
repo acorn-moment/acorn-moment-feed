@@ -1,8 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-10-14T01:10:11Z",
+  "monitoringLastCheckedAt": "2026-10-15T01:07:33Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-270042-2026-10-15T01:07:33Z",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-10-15T01:07:33Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042"
+    },
     {
       "id": "cmb-purchase-019547-2026-10-14T01:10:11Z",
       "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
@@ -72,6 +79,13 @@
       "title": "招商基金管理有限公司关于旗下部分基金2026年9月7日因境外主要投资市场节假日暂停申购、赎回、转换、定期定额投资业务的公告",
       "publishedAt": "2026-09-02T16:00:00Z",
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=841708254251&TB=MFA"
+    },
+    {
+      "id": "841605311506",
+      "fundName": "易方达纳斯达克100ETF联接（QDII-LOF）",
+      "title": "易方达基金管理有限公司关于旗下部分基金2026年9月7日暂停申购、赎回、转换、定期定额投资业务的提示性公告",
+      "publishedAt": "2026-09-01T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=841605311506&TB=MFA"
     },
     {
       "id": "831906823581",
@@ -217,11 +231,11 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=842345358234&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "270042",
         "006479"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
@@ -279,7 +293,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130",
-      "lastMonitoredAnnouncementID": "845251331197"
+      "lastMonitoredAnnouncementID": "841605311506"
     },
     {
       "index": "纳斯达克100",
