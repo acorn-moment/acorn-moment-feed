@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-10-15T01:07:33Z",
+  "monitoringLastCheckedAt": "2026-10-16T01:06:19Z",
   "alerts": [
     {
       "id": "cmb-purchase-270042-2026-10-15T01:07:33Z",
@@ -9,6 +9,13 @@
       "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
       "publishedAt": "2026-10-15T01:07:33Z",
       "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042"
+    },
+    {
+      "id": "845370408932",
+      "fundName": "大成标普500等权重指数（QDII）",
+      "title": "关于大成标普500等权重指数证券投资基金调整大额申购(含定期定额申购)的公告",
+      "publishedAt": "2026-10-14T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=845370408932&TB=MFA"
     },
     {
       "id": "cmb-purchase-019547-2026-10-14T01:10:11Z",
@@ -215,7 +222,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=096001",
-      "lastMonitoredAnnouncementID": "842173574100"
+      "lastMonitoredAnnouncementID": "845370408932"
     },
     {
       "index": "纳斯达克100",
