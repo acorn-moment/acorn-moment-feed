@@ -1,8 +1,22 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-10-20T01:12:12Z",
+  "monitoringLastCheckedAt": "2026-10-21T05:08:22Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-040046-2026-10-21T05:08:22Z",
+      "fundName": "华安纳斯达克100ETF联接（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-10-21T05:08:22Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=040046"
+    },
+    {
+      "id": "845888947188",
+      "fundName": "万家纳斯达克100指数发起式（QDII）",
+      "title": "关于万家纳斯达克100指数型发起式证券投资基金(QDII)调整大额申购(含定期定额投资)业务金额限制的公告",
+      "publishedAt": "2026-10-20T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=845888947188&TB=MFA"
+    },
     {
       "id": "845800888571",
       "fundName": "华安纳斯达克100ETF联接（QDII）",
@@ -199,7 +213,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441",
-      "lastMonitoredAnnouncementID": "843469394852"
+      "lastMonitoredAnnouncementID": "845888947188"
     },
     {
       "index": "标普500",
@@ -275,11 +289,11 @@
       "agencyScope": "公告未区分渠道",
       "agencyVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbStatus": "基金公司官网确认 9 月 24 日起单日限额 5 元；招商银行公开页面显示 A/C 可申购",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "040046",
         "014978"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=040046",
