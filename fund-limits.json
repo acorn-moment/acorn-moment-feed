@@ -1,8 +1,22 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-11-22T07:15:31Z",
+  "monitoringLastCheckedAt": "2026-11-23T07:59:19Z",
   "alerts": [
+    {
+      "id": "848690314317",
+      "fundName": "易方达纳斯达克100ETF联接（QDII-LOF）",
+      "title": "易方达基金管理有限公司关于旗下部分基金2026年11月26日暂停申购、赎回、转换、定期定额投资业务的提示性公告",
+      "publishedAt": "2026-11-22T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=848690314317&TB=MFA"
+    },
+    {
+      "id": "848690314325",
+      "fundName": "国泰标普500ETF发起联接（QDII）",
+      "title": "国泰基金管理有限公司关于旗下部分基金2026年11月26日因境外主要投资市场节假日暂停申购、赎回、转换、定期定额投资业务的公告",
+      "publishedAt": "2026-11-22T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=848690314325&TB=MFA"
+    },
     {
       "id": "847789375088",
       "fundName": "广发纳斯达克100ETF联接（QDII）",
@@ -335,7 +349,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=161130",
-      "lastMonitoredAnnouncementID": "841605311506"
+      "lastMonitoredAnnouncementID": "848690314317"
     },
     {
       "index": "纳斯达克100",
@@ -357,7 +371,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=160213",
-      "lastMonitoredAnnouncementID": "843381470442"
+      "lastMonitoredAnnouncementID": "848690314325"
     },
     {
       "index": "纳斯达克100",
@@ -525,7 +539,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017028",
-      "lastMonitoredAnnouncementID": "841618793296"
+      "lastMonitoredAnnouncementID": "848690314325"
     }
   ]
 }
