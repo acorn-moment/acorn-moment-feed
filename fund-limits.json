@@ -1,8 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-11-23T07:59:19Z",
+  "monitoringLastCheckedAt": "2026-11-24T10:14:18Z",
   "alerts": [
+    {
+      "id": "848775449852",
+      "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
+      "title": "招商基金管理有限公司关于旗下部分基金2026年11月26日因境外主要投资市场节假日暂停申购、赎回、转换、定期定额投资业务的公告",
+      "publishedAt": "2026-11-23T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=848775449852&TB=MFA"
+    },
     {
       "id": "848690314317",
       "fundName": "易方达纳斯达克100ETF联接（QDII-LOF）",
@@ -176,7 +183,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-22T00:32:23Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019547",
-      "lastMonitoredAnnouncementID": "841708254251"
+      "lastMonitoredAnnouncementID": "848775449852"
     },
     {
       "index": "纳斯达克100",
