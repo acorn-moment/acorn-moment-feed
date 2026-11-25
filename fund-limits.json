@@ -1,8 +1,36 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-11-24T10:14:18Z",
+  "monitoringLastCheckedAt": "2026-11-25T08:58:01Z",
   "alerts": [
+    {
+      "id": "cmb-purchase-019441-2026-11-25T08:58:01Z",
+      "fundName": "万家纳斯达克100指数发起式（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-11-25T08:58:01Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441"
+    },
+    {
+      "id": "cmb-purchase-096001-2026-11-25T08:58:01Z",
+      "fundName": "大成标普500等权重指数（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-11-25T08:58:01Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=096001"
+    },
+    {
+      "id": "cmb-purchase-539001-2026-11-25T08:58:01Z",
+      "fundName": "建信纳斯达克100指数（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-11-25T08:58:01Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=539001"
+    },
+    {
+      "id": "cmb-purchase-017641-2026-11-25T08:58:01Z",
+      "fundName": "摩根标普500指数（QDII）",
+      "title": "招商银行公开页面申购支持状态发生变化，需重新核验",
+      "publishedAt": "2026-11-25T08:58:01Z",
+      "sourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017641"
+    },
     {
       "id": "848775449852",
       "fundName": "招商纳斯达克100ETF发起式联接（QDII）",
@@ -240,11 +268,11 @@
       "agencyScope": "代销渠道；A/C 合并计算",
       "agencyVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbStatus": "公告确认代销渠道单日累计降至 10 元；招商银行公开页面显示 A/C 可申购，实际下单仍以银行页面为准",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "019441",
         "019442"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-10-01T00:49:18Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=019441",
@@ -270,11 +298,11 @@
       "agencyScope": "各代销机构（招商银行属于代销机构）",
       "agencyVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbStatus": "已在招商银行公开基金接口确认；基金公告确认代销每日累计 100 元，下单仍以银行实时页面为准",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "096001",
         "008401"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=096001",
@@ -441,11 +469,11 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=840445424430&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "539001",
         "012752"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [
         "023422"
       ],
@@ -467,11 +495,11 @@
       "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=838223258325&TB=MFA",
       "channelScope": "基金公司直销限额待核验",
       "cmbStatus": "已在招商银行公开基金接口确认产品资料；招商银行实时申购状态与额度待核验",
-      "cmbPurchaseAvailableCodes": [
+      "cmbPurchaseAvailableCodes": [],
+      "cmbPurchaseUnavailableCodes": [
         "017641",
         "019305"
       ],
-      "cmbPurchaseUnavailableCodes": [],
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=017641",
