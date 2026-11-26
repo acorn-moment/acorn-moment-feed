@@ -1,8 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01T00:49:18Z",
-  "monitoringLastCheckedAt": "2026-11-25T08:58:01Z",
+  "monitoringLastCheckedAt": "2026-11-26T08:44:29Z",
   "alerts": [
+    {
+      "id": "848998266896",
+      "fundName": "广发纳斯达克100ETF联接（QDII）",
+      "title": "关于广发纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）继续暂停申购（包含转换转入、定期定额及不定额投资）业务的提示性公告",
+      "publishedAt": "2026-11-25T16:00:00Z",
+      "sourceURL": "https://fund.cmbchina.com/FundPages/FundNews/JYNewsDetail.aspx?ID=848998266896&TB=MFA"
+    },
     {
       "id": "cmb-purchase-019441-2026-11-25T08:58:01Z",
       "fundName": "万家纳斯达克100指数发起式（QDII）",
@@ -330,7 +337,7 @@
       "cmbPurchaseUnknownCodes": [],
       "cmbVerifiedAt": "2026-09-19T00:00:00Z",
       "cmbSourceURL": "https://fund.cmbchina.com/OpenFundDetail?Channel=Summary&FundID=270042",
-      "lastMonitoredAnnouncementID": "847789375088"
+      "lastMonitoredAnnouncementID": "848998266896"
     },
     {
       "index": "纳斯达克100",
